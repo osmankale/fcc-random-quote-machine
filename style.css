@@ -1,5 +1,6 @@
+
 blockquote{
-    
+
     border-left:none
 }
 
@@ -34,6 +35,8 @@ blockquote{
 
 .quote-text{
     
-    font-size: 19px;
-    margin-top: -65px;
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+  margin-top: -65px;
 }
