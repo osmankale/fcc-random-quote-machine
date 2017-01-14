@@ -11,7 +11,9 @@ blockquote{
 .quote-box{
     
     overflow: hidden;
-    margin-top: -50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 350px;
     padding-top: -100px;
     border-radius: 17px;
     background-color: #4ADFCC;
