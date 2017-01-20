@@ -1,50 +1,60 @@
 
-blockquote{
-
-    border-left:none
+body {
+  background-color: #DFEFFB;
 }
 
-.quote-badge{
-    background-color: rgba(0, 0, 0, 0.2);   
+blockquote {
+  border-left: none
 }
 
-.quote-box{
-    
-    overflow: hidden;
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-left: 350px;
-    padding-top: -100px;
-    border-radius: 17px;
-    background-color: #4ADFCC;
-    margin-top: 25px;
-    color:white;
-    width: 325px;
-    box-shadow: 2px 2px 2px 2px #E0E0E0;
-    
+.quote-box {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  border-radius: 17px;
+  background-color: #AFD0EF;
+  color: #0168B3;
+  width: 325px;
+  box-shadow: 2px 2px 2px 2px #E0E0E0;
+  width: 50%;
+  height: 50%;
+  min-width: 200px;
+  max-width: 500px;
+  padding: 0px;
 }
 
-
-.quotation-mark{
-    
-    margin-top: -10px;
-    font-weight: bold;
-    font-size:100px;
-    color:white;
-    font-family: "Times New Roman", Georgia, Serif;
-    
+.quotation-mark {
+  margin-top: -10px;
+  font-weight: bold;
+  font-size: 100px;
+  color: #0168B3;
+  font-family: "Times New Roman", Georgia, Serif;
 }
 
-.quote-text{
-    
+.quote-text {
   font-family: 'Tangerine', serif;
   font-size: 48px;
   text-shadow: 4px 4px 4px #aaa;
   margin-top: -65px;
 }
 
-#authorName{
+#authorName {
   font-family: 'Tangerine', serif;
   font-size: 30px;
   text-shadow: 4px 4px 4px #aaa;
+}
+
+.vertical-center {
+  min-height: 100%;
+}
+
+#header {
+  font-family: 'Rye', serif;
+  font-size: 60px;
+  background-color: #AFD0EF;
+  color: #0168B3;
 }
